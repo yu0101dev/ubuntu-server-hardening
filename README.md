@@ -1,6 +1,6 @@
-# Ubuntu Server Hardening Wizard 2025
+# Ubuntu Server Hardening Wizard
 
-**The safest, most beginner-friendly, production-ready hardening script for Ubuntu servers**
+**Turns a fresh Ubuntu server into a **secure, production-ready machine** in minutes , even if you're not a Linux expert.**
 
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20%7C%2022.04%20%7C%2024.04%2B-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -8,10 +8,9 @@
 
 > Zero risk of SSH lockout • Full backups • Interactive explanations • Works on 1 or 1000 servers
 
-This script turns a fresh Ubuntu server into a **secure, production-ready machine** in minutes , even if you're not a Linux expert.
 
 
-This script is designed to be the **first layer** in securing a new server. While it provides a solid foundation, additional hardening steps (e.g., disabling SSH password authentication and adding SSH keys) should be implemented to further strengthen the server's security.
+This script is designed to be the `First layer` in securing a new server. While it provides a solid foundation, additional hardening steps (e.g., disabling SSH password authentication and adding SSH keys) should be implemented to further strengthen the server's security.
 
 
 

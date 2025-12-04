@@ -8,7 +8,12 @@
 
 > Zero risk of SSH lockout • Full backups • Interactive explanations • Works on 1 or 1000 servers
 
-This script turns a fresh Ubuntu server into a **secure, production-ready machine** in minutes — even if you're not a Linux expert.
+This script turns a fresh Ubuntu server into a **secure, production-ready machine** in minutes , even if you're not a Linux expert.
+
+
+This script is designed to be the **first layer** in securing a new server. While it provides a solid foundation, additional hardening steps (e.g., disabling SSH password authentication and adding SSH keys) should be implemented to further strengthen the server's security.
+
+---
 
 ---
 ## 🛡️ Features

@@ -64,7 +64,7 @@ sudo ./harden.sh
 ---
 ## 📋 Example Final Summary
 
----
+```
 ========================================
      SERVER HARDENING COMPLETE!
 ========================================
@@ -85,7 +85,7 @@ sudo ./harden.sh
 If connection fails, use server console to restore:
   sudo cp /etc/ssh/sshd_config.backup.* /etc/ssh/sshd_config
   sudo systemctl restart sshd
----
+```
 
 ---
 ## 🛠️ Troubleshooting
@@ -129,10 +129,9 @@ cd ubuntu-server-hardening
 ```
 
 ### **Option 2: Download ZIP**
-1. Go to: https://github.com/yu0101dev/ubuntu-server-hardening
-2. Click the green **"Code"** button
-3. Select **"Download ZIP"**
-4. Extract and run: `sudo bash harden.sh`
+1. Click the green **"Code"** button
+2. Select **"Download ZIP"**
+3. Extract and run: `sudo bash harden.sh`
 
 ### **Option 3: Just the script**
 ```

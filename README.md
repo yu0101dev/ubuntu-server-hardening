@@ -34,7 +34,7 @@ This script turns a fresh Ubuntu server into a **secure, production-ready machin
 ### One-Command Installation
 
 ```
-curl -fsSL https://raw.githubusercontent.com/yourusername/ubuntu-server-hardening/main/harden.sh -o harden.sh && \
+curl -fsSL https://raw.githubusercontent.com/yu0101dev/ubuntu-server-hardening/main/harden.sh -o harden.sh && \
 chmod +x harden.sh && \
 sudo ./harden.sh
 ```
@@ -98,21 +98,7 @@ If connection fails, use server console to restore:
 | **Script stops on non-Ubuntu** | This script only works on Ubuntu 20.04/22.04/24.04+ |
 | **Fail2Ban not working** | Check logs: `sudo fail2ban-client status sshd` |
 
----
-## 📁 Full Repository Structure
 
----
-ubuntu-server-hardening/
-├── README.md           # This file
-├── harden.sh           # Main hardening script
-├── LICENSE             # MIT License
-├── CHANGELOG.md        # Version history
-├── examples/           # Example configurations
-│   ├── custom-ports.txt
-│   └── firewall-rules.txt
-└── tests/              # Test scripts
-    └── test-ssh.sh
----
 
 ---
 ## 🤝 Contributing
@@ -129,31 +115,6 @@ ubuntu-server-hardening/
 - Always create backups
 - Explain changes in plain English
 
----
-## 👤 Author
-
-**Your Name**  
-GitHub: [@yourusername](https://github.com/yourusername)  
-Twitter/X: [@yourhandle](https://twitter.com/yourhandle)  
-Website: https://yourwebsite.com
-
----
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-## ⭐ Support
-
-**Star this repo if you found it helpful!**  
-Your support helps others discover safe server hardening.
-
----
-## 📞 Need Help?
-
-- Check the **Troubleshooting** section
-- Open an Issue
-- For security issues: Please report responsibly via email
 
 ---
 **Remember:** Always test in a staging environment first. While this script is designed to be safe, every server setup is unique.
@@ -163,12 +124,12 @@ Your support helps others discover safe server hardening.
 
 ### **Option 1: Download via Git**
 ```
-git clone https://github.com/yourusername/ubuntu-server-hardening.git
+git clone https://github.com/yu0101dev/ubuntu-server-hardening.git
 cd ubuntu-server-hardening
 ```
 
 ### **Option 2: Download ZIP**
-1. Go to: https://github.com/yourusername/ubuntu-server-hardening
+1. Go to: https://github.com/yu0101dev/ubuntu-server-hardening
 2. Click the green **"Code"** button
 3. Select **"Download ZIP"**
 4. Extract and run: `sudo bash harden.sh`
@@ -176,7 +137,7 @@ cd ubuntu-server-hardening
 ### **Option 3: Just the script**
 ```
 # Download only the hardening script
-curl -fsSL https://raw.githubusercontent.com/yourusername/ubuntu-server-hardening/main/harden.sh -o harden.sh
+curl -fsSL https://raw.githubusercontent.com/yu0101dev/ubuntu-server-hardening/main/harden.sh -o harden.sh
 chmod +x harden.sh
 sudo ./harden.sh
 ```

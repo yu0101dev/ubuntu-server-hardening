@@ -13,7 +13,7 @@ This script turns a fresh Ubuntu server into a **secure, production-ready machin
 
 This script is designed to be the **first layer** in securing a new server. While it provides a solid foundation, additional hardening steps (e.g., disabling SSH password authentication and adding SSH keys) should be implemented to further strengthen the server's security.
 
----
+
 
 ---
 ## 🛡️ Features

@@ -114,7 +114,6 @@ If connection fails, use server console to restore:
 5. Open a Pull Request
 
 **Guidelines:**
-- Keep it Ubuntu-only
 - Never risk SSH lockouts
 - Always create backups
 - Explain changes in plain English
